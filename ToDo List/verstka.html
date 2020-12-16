@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body background="./images/email-pattern.png">
+
+
+    <div class="oclock">
+        <form name="Clock">
+            <input class="clok" type="text" size="10" name="timer">
+           </form>
+    </div>
+
+
+    <div class="content">
+        <div class="wrapper">
+            <div class="header">
+                <h1>ToDo List</h1>
+                <input  type="text" placeholder="Введіть нове завдання..." id="toDoEl">
+                <span class="addBtn" onclick="newElement()">Добавити</span>
+            </div>
+            <ul id="list">
+
+            </ul>
+
+        </div>
+
+
+
+        <div class="calendar">
+            <div class="calend-wrapper">
+                <div class="calend-header">
+                    <p class="currYear">Year</p>
+                    <p class="currMonth">Month</p>
+                </div>
+                <div class="calend-table">
+                    <table class="table">
+                        <caption class="currDay">Today</caption>
+                        <tr>
+                            <th>ПН</th>
+                            <th>ВТ</th>
+                            <th>СР</th>
+                            <th>ЧТ</th>
+                            <th>ПТ</th>
+                            <th>СБ</th>
+                            <th>НД</th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+
+</body>
+<script src="./code.js"></script>
+
+</html>
